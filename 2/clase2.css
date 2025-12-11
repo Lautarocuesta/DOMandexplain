@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    background: #fafafa;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.texto {
+    margin: 10px 0;
+}
+
+#resultado {
+    margin-top: 20px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    min-height: 40px;
+}
+
+.modo-noche {
+    background: #222 !important;
+    color: white !important;
+}
