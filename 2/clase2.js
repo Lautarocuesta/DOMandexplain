@@ -7,19 +7,21 @@ const btnParrafos = document.getElementById('btnParrafos');
 const btnResultado = document.getElementById('btnResultado');
 const btnModoNoche = document.getElementById('btnModoNoche');
 
+///desde aca cambiamos el titulo 
 function cambiarTitulo() {
-    titulo.innerText = "Título cambiado desde JS (Clase 2)";
+    
+    titulo.innerText = "tengo 15 años";
 }
 
 function modificarParrafos() {
     parrafos.forEach(p => {
-        p.style.color = 'blue';
-        p.style.fontWeight = 'bold';
+        p.style.color = 'purple';
+        p.style.fontWeight = 'Arial';
     });
 }
 
 function escribirResultado() {
-    resultado.innerHTML = "Texto escrito desde JavaScript usando innerHTML";
+    resultado.innerHTML = "Probar funcionalidades";
 }
 
 function modoNoche() {

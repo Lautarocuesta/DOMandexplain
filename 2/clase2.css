@@ -1,6 +1,8 @@
+
 body {
-    font-family: Arial;
-    background: #fafafa;
+    font-family: 'Gill Sans';
+    background: #c7b2e4;
+    
     padding: 20px;
 }
 
@@ -9,18 +11,18 @@ h1 {
 }
 
 .texto {
-    margin: 10px 0;
+    margin: 4px 0;
 }
 
 #resultado {
-    margin-top: 20px;
+    margin-top: 2px;
     padding: 10px;
-    background: #fff;
-    border-radius: 10px;
-    min-height: 40px;
+    background: #74e831;
+    border-radius: 30px;
+    min-height: 20px;
 }
 
 .modo-noche {
-    background: #222 !important;
+    background: #0e1237 !important;
     color: white !important;
 }

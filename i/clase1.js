@@ -24,7 +24,7 @@ function agregarItem() {
     lista.appendChild(li);
     historial.push(nuevoItem.value);
 
-    info.innerHTML = "Historial: " + historial.join(", ");
+    info.innerHTML = "Historial: " + historial.join("");
     nuevoItem.value = "";
 }
 
@@ -32,7 +32,7 @@ function colorearLista() {
     let items = lista.querySelectorAll("li");
 
     items.forEach(item => {
-        item.style.color = "blue";
+        item.style.color = "purple";
     });
 }
 
@@ -43,7 +43,7 @@ function eliminarItem() {
     let confirmar = confirm("¿Seguro que querés borrar el último elemento?");
     if (!confirmar) return;
 
-    lista.removeChild(items[items.length - 1]);
+    lista.removeChild(items[items.length - 2]);
 }
 
 function contarItems() {
