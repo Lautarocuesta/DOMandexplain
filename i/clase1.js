@@ -32,7 +32,8 @@ function colorearLista() {
     let items = lista.querySelectorAll("li");
 
     items.forEach(item => {
-        item.style.color = "purple";
+        item.style.color = "green";
+        item.style.fontFamily = "calibri";  
     });
 }
 
@@ -43,7 +44,7 @@ function eliminarItem() {
     let confirmar = confirm("¿Seguro que querés borrar el último elemento?");
     if (!confirmar) return;
 
-    lista.removeChild(items[items.length - 2]);
+    lista.removeChild(items[items.length - 1]);
 }
 
 function contarItems() {
